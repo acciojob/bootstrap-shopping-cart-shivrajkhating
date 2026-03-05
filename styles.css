@@ -1,1 +1,99 @@
 /*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.subtitle {
+  color: gray;
+  margin-bottom: 30px;
+}
+
+.cart-wrapper {
+  display: flex;
+  background: white;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Products Section */
+.products {
+  flex: 2;
+  padding: 30px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.product img {
+  width: 100px;
+}
+
+.details {
+  text-align: left;
+}
+
+.details h3 {
+  color: #1e90ff;
+}
+
+.quantity input {
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Summary Section */
+.summary {
+  flex: 1;
+  background: #f7f9fc;
+  padding: 30px;
+  text-align: left;
+}
+
+.summary h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.total {
+  font-weight: bold;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #1e90ff, #0066ff);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+button:hover {
+  opacity: 0.9;
+}

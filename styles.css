@@ -1,99 +1,56 @@
 /*  your css code here. If applicable */
-body {
-  font-family: Arial, sans-serif;
-  background: #f4f4f4;
-  margin: 0;
-  padding: 0;
+body{
+font-family: Arial;
+background:#f4f4f4;
 }
 
-.container {
-  width: 90%;
-  margin: 40px auto;
-  text-align: center;
+.container{
+display:flex;
+width:900px;
+margin:auto;
+background:white;
+padding:20px;
 }
 
-.subtitle {
-  color: gray;
-  margin-bottom: 30px;
+.products{
+flex:2;
 }
 
-.cart-wrapper {
-  display: flex;
-  background: white;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+.item{
+display:flex;
+align-items:center;
+margin-bottom:20px;
 }
 
-/* Products Section */
-.products {
-  flex: 2;
-  padding: 30px;
+.info{
+flex:1;
+margin-left:10px;
 }
 
-.product {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 30px;
+.qty{
+width:60px;
+height:30px;
+text-align:center;
 }
 
-.product img {
-  width: 100px;
+.price{
+width:80px;
+font-size:18px;
 }
 
-.details {
-  text-align: left;
+.summary{
+flex:1;
+background:#f1f5f9;
+padding:20px;
 }
 
-.details h3 {
-  color: #1e90ff;
-}
-
-.quantity input {
-  width: 50px;
-  padding: 5px;
-  text-align: center;
-}
-
-.price {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-/* Summary Section */
-.summary {
-  flex: 1;
-  background: #f7f9fc;
-  padding: 30px;
-  text-align: left;
-}
-
-.summary h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.summary-item {
-  display: flex;
-  justify-content: space-between;
-  margin: 15px 0;
-}
-
-.total {
-  font-weight: bold;
-}
-
-button {
-  width: 100%;
-  padding: 12px;
-  background: linear-gradient(to right, #1e90ff, #0066ff);
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 20px;
-  font-size: 16px;
-}
-
-button:hover {
-  opacity: 0.9;
+button{
+width:100%;
+padding:12px;
+background:#1e73ff;
+color:white;
+border:none;
+border-radius:6px;
+font-size:16px;
+cursor:pointer;
 }
